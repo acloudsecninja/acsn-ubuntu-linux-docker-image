@@ -2,7 +2,7 @@
 A Cloud Security Ninja LLC 
 - Ubuntu Linux Docker Image
 
-1. Run this command below to clean all uneeded files.
+1. Run this command below to clean all uneeded files or start over in the process.
 ```bash
 docker system prune --all --force
 ```
