@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  ubuntu:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: my-ubuntu-image
+    container_name: my_ubuntu_container
+    volumes:
+      - ./data:/data  # Optional: Mount a local directory to the container
+    tty: true
